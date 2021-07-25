@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "helvetica Neue", Helvetica;
+}
+
+.profile {
+	width: 320px;
+	height: 500px;
+	position: relative;
+	text-align: center;
+	margin: 70px auto;
+	background: #2E324A;
+	border-radius: 7px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	padding: 40px 0;
+}
+
+.social {
+	width: 310px;
+	position: absolute;
+	top: 20%;
+	left: 0;
+	padding: 35px 5px;
+}
+ 
+ 
+.social h2 {
+	font-size: 30px;
+	color: #9097ff;
+}
+
+
+.social span1{
+  font-size: 20px;
+}
+
+.social .first {
+	font-size: 14px;
+	color: #9097ff;
+	width: 200px;
+	margin: 20px auto 40px auto;
+	line-height: 20px;
+}
+
+.button {
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 12px 50px;
+	font-size: 20px;
+	color: #fff; 
+	background: linear-gradient(50deg, #494BF9, #638EF5);
+	border-radius: 25px;
+}
+
+.button:hover {
+	color: #000;
+	background: linear-gradient(50deg, #638EF5, #494BF9);
+}
+
+.icon {
+	margin: 48px 15px;
+}
+
+.icon li {
+	list-style: none;
+	float: left;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 8px;
+	background: linear-gradient(-50deg, #494BF9, #BD44F4);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.icon a {
+	text-decoration: none;
+	margin: 0px;
+	color: #fff;
+	font-size: 20px;
+}
+.icon li:hover,
+.icon li a:hover {
+	color: blue;
+	background: linear-gradient(-50deg, #BD44F4, #494BF9);
+}
+
+
+
+
+
+/* responsive code */
+
+
+@media only screen and (max-width: 400px) {
+	.profile {
+		width: 290px;
+	}
+	.social {
+		width: 280px;
+	}
+	.icon {
+		margin: 48px 25px;
+	}
+	.icon li {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+	.icon li a i {
+		font-size: 16px;
+	}
+}
+
+
+
+
+
+
